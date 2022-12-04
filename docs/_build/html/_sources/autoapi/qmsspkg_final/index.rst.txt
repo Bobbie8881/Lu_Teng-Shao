@@ -1,0 +1,23 @@
+:py:mod:`qmsspkg_final`
+=======================
+
+.. py:module:: qmsspkg_final
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   qmsspkg_final/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

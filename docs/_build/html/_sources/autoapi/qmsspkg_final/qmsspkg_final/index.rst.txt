@@ -1,0 +1,39 @@
+:py:mod:`qmsspkg_final.qmsspkg_final`
+=====================================
+
+.. py:module:: qmsspkg_final.qmsspkg_final
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   qmsspkg_final.qmsspkg_final.get_best_teams
+
+
+
+.. py:function:: get_best_teams(Stats)
+
+   Get the MLB teams that have the most players rank in the top of given stats category.
+   ----------
+   Stats : stats
+     The stats that we want to look for.
+   :returns: The names of the team that has the most players ranked in the given category.
+   :rtype: list
+
+   .. rubric:: Examples
+
+   >>> from qmsspkg_final import qmsspkg_final
+   >>> Stats = 'Batting_Average'
+   >>> qmsspkg_final.get_best_teams(Stats):
+   ['Guardians']
+   >>> Stats = 'Runs_Scored'
+   >>> qmsspkg_final.get_best_teams(Stats):
+   ['Astros']
+
+
